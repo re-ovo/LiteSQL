@@ -17,6 +17,18 @@
 
     <!-- Dependencies Setting / 依赖设置 -->
     <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.11.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.11.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
     <!-- 依赖中心 / Repo Setting -->
     <repositories>
